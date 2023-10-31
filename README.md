@@ -14,4 +14,4 @@ Once the Lighthouse score improvements are made, we will deploy the UCSD homepag
 
 Please find the meeting notes [here](meeting_notes.md).
 
-![](doc/lighthouse_desktop.png)
+![](docs/lighthouse_desktop.png)
