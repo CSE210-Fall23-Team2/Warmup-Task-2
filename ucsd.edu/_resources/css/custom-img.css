@@ -469,8 +469,14 @@
     }
 
     .research-innovation {
-        background: url("../../_images/homepage/img-research-and-innovation.jpg");
-        background-image: url("../../_images/homepage/img-research-and-innovation.jpg") !important;
+        /* background: url("../../_images/homepage/img-research-and-innovation.jpg"); */
+        background-image: image-set(
+            url('../../_images/homepage/img-research-and-innovation/small.jpg') 1x, /* smaller image */
+            url('../../_images/homepage/img-research-and-innovation/original.jpg') 4x
+            url('../../_images/homepage/img-research-and-innovation/medium.jpg') 2x, /* medium-sized image for higher density screens */
+            url('../../_images/homepage/img-research-and-innovation/large.jpg') 3x,  /* larger image for larger screens or high-density displays */
+        ) !important;
+        /* background-image: url("../../_images/homepage/img-research-and-innovation.jpg") !important; */
     }
 
     .attend-cta {
@@ -485,6 +491,26 @@
     }
 
     .student-life-alt {
-        background: url("../../_images/homepage/img-our-thriving-student-life.jpg");
-        background-image: url("../../_images/homepage/img-our-thriving-student-life.jpg") !important;
+        /* background: url("../../_images/homepage/img-our-thriving-student-life.jpg"); */
+        
+        background-image: image-set(
+            url('../../_images/homepage/img-our-thriving-student-life/small.jpg') 1x, /* smaller image */
+            url('../../_images/homepage/img-our-thriving-student-life/medium.jpg') 2x, /* medium-sized image for higher density screens */
+            url('../../_images/homepage/img-our-thriving-student-life/large.jpg') 3x,  /* larger image for larger screens or high-density displays */
+            url('../../_images/homepage/img-our-thriving-student-life/original.jpg') 4x
+        ) !important;
+
+        /* background-image: url("../../_images/homepage/img-our-thriving-student-life.jpg") !important; */
+    }
+
+    .economic-impact-report {
+        /* background-image: url("../../_images/homepage/img-our-thriving-student-life.jpg") !important; */
+        background-image: image-set(
+            url('../../_images/homepage/img-stats-top-ten/small.jpg') 1x, /* smaller image */
+            url('../../_images/homepage/img-stats-top-ten/medium.jpg') 2x, /* medium-sized image for higher density screens */
+            url('../../_images/homepage/img-stats-top-ten/large.jpg') 3x,  /* larger image for larger screens or high-density displays */
+            url('../../_images/homepage/img-stats-top-ten/original.jpg') 4x
+        ) !important;
+        
+        /* background-image: url('../../_images/about/economic-impact-report/img-stats-top-ten.jpg') !important; */
     }
