@@ -173,10 +173,10 @@
         background-image: url("../../_images/campus-life/student-support/img-health-and-wellness.jpg") !important;
     }
 
-    .attend-cta {
+    /* .attend-cta {
         background: url("../../_images/admissions-aid/img-attend-uc-san-diego.jpg");
         background-image: url("../../_images/admissions-aid/img-attend-uc-san-diego.jpg") !important;
-    }
+    } */
 
     .campus-life-hero {
         background: url("../../_images/campus-life/img-hero-student-life.jpg");
@@ -383,10 +383,10 @@
         background-image: url("../../_archive/archive_images/student-success-hero.jpg") !important;
     }
 
-    .attend-cta {
+    /* .attend-cta {
         background: url("../../_archive/archive_images/advising.jpg");
         background-image: url("../../_archive/archive_images/advising.jpg") !important;
-    }
+    } */
 
     .teaching-learning {
         background: url("../../_archive/archive_images/teaching-learning.jpg");
@@ -474,8 +474,14 @@
     }
 
     .attend-cta {
-        background: url("../../_images/homepage/img-financial-aid-scholorships.jpg");
-        background-image: url("../../_images/homepage/img-financial-aid-scholorships.jpg") !important;
+        /* background: url("../../_images/homepage/img-financial-aid-scholorships.jpg"); */
+        background-image: image-set(
+            url('../../_images/homepage/img-financial-aid-scholorships/small.jpg') 1x, /* smaller image */
+            url('../../_images/homepage/img-financial-aid-scholorships/medium.jpg') 2x, /* medium-sized image for higher density screens */
+            url('../../_images/homepage/img-financial-aid-scholorships/large.jpg') 3x,  /* larger image for larger screens or high-density displays */
+            url('../../_images/homepage/img-financial-aid-scholorships/original.jpg') 4x
+        ) !important;
+        /* background-image: url("../../_images/homepage/img-financial-aid-scholorships.jpg") !important; */
     }
 
     .student-life-alt {
