@@ -1,21 +1,15 @@
 # Warmup Task 2 - UCSD Homepage
 
+This project is subset of Warmup task that focuses on enhancing the Lighthouse scores of the UCSD (University of California, San Diego) homepage and hosting it on Netlify.
 
+## Lighthouse Score Improvement
 
+The primary goal of this project is to improve the Lighthouse scores of the UCSD homepage, enhancing its web performance, accessibility, best practices, and SEO. 
 
-### Jay TODO/Notes
+## Hosting on Netlify
 
-converting image tags to picture tags.
+Once the Lighthouse score improvements are made, we will deploy the UCSD homepage on Netlify. 
 
-Loading the scaled down images based on screen resolution available!
+## Meeting notes
 
-Used derivv.com to get multiple image sizes.
-
-Convention used:
-img name -> folder name
-folder has -> orginal, large, medium, small
-
-skipping news images, cause already small.
-
----
-fix css background img later
+Please find the meeting notes here: /meeting_notes.md
