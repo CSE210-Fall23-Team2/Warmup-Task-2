@@ -38,7 +38,7 @@ These actions were taken to increase the Lighthouse score of the front page.
 - Andrew reported that the website is now hosted on Netlify. He provided the team with the new URL.
 
 ### CSS Display Errors (Jay)
-- Jay discussed the CSS display errors he encountered and handed over a list of these issues to be addressed.
+- Jay discussed the CSS display errors he encountered and differences with the actual website. He also worked on fixing these issues.
 
 ### SEO Score Improvement (Jash)
 - Jash shared updates on efforts to improve the SEO score. This includes optimizing meta tags, improving page load speed, and enhancing content for better search engine visibility.
