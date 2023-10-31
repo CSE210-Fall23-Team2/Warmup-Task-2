@@ -1,61 +1,98 @@
+/* Tried Image sets(). It doesn't work great for banners! it uses css px, instead of display size */
+
+.research-innovation {
+    background-image: url('../../_images/homepage/img-research-and-innovation/small.webp') !important;
+}
+
+@media screen and (min-width: 1400px) {
     .research-innovation {
-        /* background: url("../../_images/homepage/img-research-and-innovation.webp"); */
-        background-image: image-set(
-            url('../../_images/homepage/img-research-and-innovation/small.webp') 1x, /* smaller image */
-            url('../../_images/homepage/img-research-and-innovation/original.webp') 4x
-            url('../../_images/homepage/img-research-and-innovation/medium.webp') 2x, /* medium-sized image for higher density screens */
-            url('../../_images/homepage/img-research-and-innovation/large.webp') 3x,  /* larger image for larger screens or high-density displays */
-        ) !important;
-        /* background-image: url("../../_images/homepage/img-research-and-innovation.webp") !important; */
+        background-image: url('../../_images/homepage/img-research-and-innovation/original.webp') !important;
     }
+}
 
+@media screen and (min-width: 700px) and (max-width:1399px) {
+    .research-innovation {
+        background-image: url('../../_images/homepage/img-research-and-innovation/large.webp') !important;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width:699px) {
+    .research-innovation {
+        background-image: url('../../_images/homepage/img-research-and-innovation/medium.webp') !important;
+    }
+}
+
+
+
+
+
+.attend-cta {
+    background-image: url('../../_images/homepage/img-financial-aid-scholorships/small.webp') !important;
+}
+
+@media screen and (min-width: 1080px) {
     .attend-cta {
-        /* background: url("../../_images/homepage/img-financial-aid-scholorships.webp"); */
-        background-image: image-set(
-            url('../../_images/homepage/img-financial-aid-scholorships/small.webp') 1x, /* smaller image */
-            url('../../_images/homepage/img-financial-aid-scholorships/medium.webp') 2x, /* medium-sized image for higher density screens */
-            url('../../_images/homepage/img-financial-aid-scholorships/large.webp') 3x,  /* larger image for larger screens or high-density displays */
-            url('../../_images/homepage/img-financial-aid-scholorships/original.webp') 4x
-        ) !important;
-        /* background-image: url("../../_images/homepage/img-financial-aid-scholorships.webp") !important; */
+        background-image: url('../../_images/homepage/img-financial-aid-scholorships/original.webp') !important;
     }
+}
 
+@media screen and (min-width: 937px) and (max-width:1079px) {
+    .attend-cta {
+        background-image: url('../../_images/homepage/img-financial-aid-scholorships/medium.webp') !important;
+    }
+}
+
+
+.student-life-alt {
+    background-image: url('../../_images/homepage/img-our-thriving-student-life/small.webp') !important;
+}
+
+@media screen and (min-width: 1400px) {
     .student-life-alt {
-        /* background: url("../../_images/homepage/img-our-thriving-student-life.webp"); */
-        
-        background-image: image-set(
-            url('../../_images/homepage/img-our-thriving-student-life/small.webp') 1x, /* smaller image */
-            url('../../_images/homepage/img-our-thriving-student-life/medium.webp') 2x, /* medium-sized image for higher density screens */
-            url('../../_images/homepage/img-our-thriving-student-life/large.webp') 3x,  /* larger image for larger screens or high-density displays */
-            url('../../_images/homepage/img-our-thriving-student-life/original.webp') 4x
-        ) !important;
-
-        /* background-image: url("../../_images/homepage/img-our-thriving-student-life.webp") !important; */
+        background-image: url('../../_images/homepage/img-our-thriving-student-life/original.webp') !important;
     }
+}
 
+@media screen and (min-width: 1080px) and (max-width:1399px) {
+    .student-life-alt {
+        background-image: url('../../_images/homepage/img-our-thriving-student-life/large.webp') !important;
+    }
+}
+
+@media screen and (min-width: 720px) and (max-width:1079px) {
+    .student-life-alt {
+        background-image: url('../../_images/homepage/img-our-thriving-student-life/medium.webp') !important;
+    }
+}
+
+
+.economic-impact-report-top-ten {
+    background-image: url('../../_images/about/img-stats-top-ten/small.webp') !important;
+}
+
+@media screen and (min-width: 760px) {
     .economic-impact-report-top-ten {
-        /* background-image: url("../../_images/homepage/img-our-thriving-student-life.webp") !important; */
-        background-image: image-set(
-            url('../../_images/homepage/img-stats-top-ten/small.webp') 1x, /* smaller image */
-            url('../../_images/homepage/img-stats-top-ten/medium.webp') 2x, /* medium-sized image for higher density screens */
-            url('../../_images/homepage/img-stats-top-ten/large.webp') 3x,  /* larger image for larger screens or high-density displays */
-            url('../../_images/homepage/img-stats-top-ten/original.webp') 4x
-        ) !important;
-        
-        /* background-image: url('../../_images/about/economic-impact-report/img-stats-top-ten.webp') !important; */
+        background-image: url('../../_images/about/img-stats-top-ten/original.webp') !important;
     }
+}
+@media screen and (min-width: 480px) and (max-width: 759px) {
+    .economic-impact-report-top-ten {
+        background-image: url('../../_images/about/img-stats-top-ten/medium.webp') !important;
+    }
+}
 
+.economic-impact-report-public-service {
+    background-image: url('../../_images/about/img-stats-number-one-public-service/small.webp') !important;
+}
 
-
+@media screen and (min-width: 760px) {
     .economic-impact-report-public-service {
-        /* background-image: url("../../_images/homepage/img-our-thriving-student-life.webp") !important; */
-        background-image: image-set(
-            url('../../_images/homepage/img-stats-number-one-public-service/small.webp') 1x, /* smaller image */
-            url('../../_images/homepage/img-stats-number-one-public-service/medium.webp') 2x, /* medium-sized image for higher density screens */
-            url('../../_images/homepage/img-stats-number-one-public-service/large.webp') 3x,  /* larger image for larger screens or high-density displays */
-            url('../../_images/homepage/img-stats-number-one-public-service/original.webp') 4x
-        ) !important;
-        
-        /* background-image: url('_images/about/economic-impact-report/img-stats-number-one-public-service.webp') !important; */
+        background-image: url('../../_images/about/img-stats-number-one-public-service/original.webp') !important;
     }
-    
+}
+@media screen and (min-width: 480px) and (max-width: 759px) {
+    .economic-impact-report-public-service {
+        background-image: url('../../_images/about/img-stats-number-one-public-service/medium.webp') !important;
+    }
+}
+
